@@ -1,4 +1,4 @@
 splashofgray
 ============
 
-Splash of gray theme for sublime and terminator.
+Splash of gray theme for sublime.
