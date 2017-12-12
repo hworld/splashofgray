@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+	Colors
+
+	default text: F5F1F2
+
+	bright green: B6DB51
+	lighter green: c6d49e
+	yellow: E6DB74
+
+	comment gray: 5D5D5D
+
+	red: FF5274
+
+	blue: B4C2D6
+	faded blue: a4a9b0
+-->
 <plist version="1.0">
 	<dict>
 		<key>settings</key>
@@ -8,15 +24,15 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#22252A</string>
+					<string>#161616</string>
 					<key>caret</key>
 					<string>#FFFFFF</string>
 					<key>foreground</key>
 					<string>#F5F1F2</string>
 					<key>invisibles</key>
-					<string>#808080</string>
+					<string>#ffffff15</string>
 					<key>lineHighlight</key>
-					<string>#00000012</string>
+					<string>#00000015</string>
 					<key>selection</key>
 					<string>#404040</string>
 					<key>guide</key>
@@ -51,14 +67,61 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>entity.name.class</string>
+				<string>HTML Attributes</string>
+				<key>scope</key>
+				<string>entity.other.attribute-name.html</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#5D5D5D</string>
+					<string>#c6d49e</string>
 				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Stylus Mixins</string>
 				<key>scope</key>
-				<string>entity.name.class</string>
+				<string>entity.other.attribute-name.mixin</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B6DB51</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>CSS Selectors</string>
+				<key>scope</key>
+				<string>entity.other.attribute-name.class.stylus, entity.other.attribute-name.class.css</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B4C2D6</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>CSS Pseudo Selector</string>
+				<key>scope</key>
+				<string>entity.other.attribute-name.pseudo-element, entity.other.attribute-name.pseudo-class</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F5F1F2</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>CSS Property Name</string>
+				<key>scope</key>
+				<string>meta.property-name</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#c6d49e</string>
+				</dict>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -84,7 +147,7 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>php function</string>
+				<string>php lang functions</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -95,6 +158,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>functions</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F5F1F2</string>
+				</dict>
+				<key>scope</key>
+				<string>support.function.string</string>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>&lt;?php</string>
 				<key>settings</key>
 				<dict>
@@ -102,18 +176,18 @@
 					<string>#898989</string>
 				</dict>
 				<key>scope</key>
-				<string>punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php</string>
+				<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>html entity</string>
+				<string>HTML Entity</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
 					<string>#a4a9b0</string>
 				</dict>
 				<key>scope</key>
-				<string>entity.name.tag</string>
+				<string>entity.name.tag, punctuation.definition.tag, meta.selector.stylus</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -126,7 +200,98 @@
 				<key>scope</key>
 				<string>invalid</string>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>TS Method</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F5F1F2</string>
+				</dict>
+				<key>scope</key>
+				<string>entity.name.method</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Types/Annotations</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#a4a9b0</string>
+				</dict>
+				<key>scope</key>
+				<string>meta.type.annotation</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>TS Decorators</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B6DB51</string>
+				</dict>
+				<key>scope</key>
+				<string>meta.decorator entity.name.function</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>This</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#a4a9b0</string>
+				</dict>
+				<key>scope</key>
+				<string>variable.language.this</string>
+			</dict>
 
+			<!-- Elixir -->
+			<dict>
+				<key>name</key>
+				<string>Method Separator</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B6DB51</string>
+				</dict>
+				<key>scope</key>
+				<string>punctuation.separator.method.elixir</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Colons</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B6DB51</string>
+				</dict>
+				<key>scope</key>
+				<string>punctuation.definition.constant.elixir</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Attributes</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#c6d49e</string>
+				</dict>
+				<key>scope</key>
+				<string>variable.other.readwrite.module.elixir</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Atoms</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#a4a9b0</string>
+				</dict>
+				<key>scope</key>
+				<string>constant.other.symbol.elixir</string>
+			</dict>
+
+			<!-- Diffs -->
 			<dict>
 				<key>name</key>
 				<string>diff.header</string>
@@ -169,108 +334,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#E6DB74</string>
-				</dict>
-			</dict>
-
-			<dict>
-				<key>name</key>
-				<string>Git Modified Line</string>
-				<key>scope</key>
-				<string>git.changes.x</string>
-				<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#272852</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Git Added Line</string>
-				<key>scope</key>
-				<string>git.changes.+</string>
-				<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#275822</string>
-					<key>foreground</key>
-					<string>#B6DB51</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Git Remove Line</string>
-				<key>scope</key>
-				<string>git.changes.-</string>
-				<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#A72822</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Outline</string>
-				<key>scope</key>
-				<string>sublimelinter.outline.illegal</string>
-				<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#FF527444</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Underline</string>
-				<key>scope</key>
-				<string>sublimelinter.underline.illegal</string>
-				<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#FF527411</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Warning Outline</string>
-				<key>scope</key>
-				<string>sublimelinter.outline.warning</string>
-				<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#DF940066</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Warning Underline</string>
-				<key>scope</key>
-				<string>sublimelinter.underline.warning</string>
-				<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#FF527466</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Violation Outline</string>
-				<key>scope</key>
-				<string>sublimelinter.outline.violation</string>
-				<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#ffffff33</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Violation Underline</string>
-				<key>scope</key>
-				<string>sublimelinter.underline.violation</string>
-				<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#FF527466</string>
 				</dict>
 			</dict>
 		</array>
