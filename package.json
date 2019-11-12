@@ -1,0 +1,21 @@
+{
+	"name": "Splash of Gray",
+	"description": "Splash of Gray color theme.",
+	"version": "0.0.1",
+	"publisher": "CROS",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Splash of Gray",
+				"uiTheme": "vs-dark",
+				"path": "./themes/splashofgray.tmTheme"
+			}
+		]
+	}
+}

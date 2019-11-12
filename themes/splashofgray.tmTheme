@@ -69,7 +69,7 @@
 				<key>name</key>
 				<string>HTML Attributes</string>
 				<key>scope</key>
-				<string>entity.other.attribute-name.html</string>
+				<string>entity.other.attribute-name.html, entity.other.attribute-name.tag.pug, entity.other.attribute-name.js, entity.other.attribute-name.tsx</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -143,7 +143,7 @@
 					<string>#B6DB51</string>
 				</dict>
 				<key>scope</key>
-				<string>keyword</string>
+				<string>keyword, constant.language.ruby, support.function.kernel.lambda.ruby</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -187,7 +187,7 @@
 					<string>#a4a9b0</string>
 				</dict>
 				<key>scope</key>
-				<string>entity.name.tag, punctuation.definition.tag, meta.selector.stylus</string>
+				<string>entity.name.tag, punctuation.definition.tag, meta.selector.stylus, entity.other.attribute-name.class</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -244,6 +244,17 @@
 				<key>scope</key>
 				<string>variable.language.this</string>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>Atoms/Symbols</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#a4a9b0</string>
+				</dict>
+				<key>scope</key>
+				<string>constant.other.symbol.elixir, constant.other.symbol.ruby</string>
+			</dict>
 
 			<!-- Elixir -->
 			<dict>
@@ -279,16 +290,31 @@
 				<key>scope</key>
 				<string>variable.other.readwrite.module.elixir</string>
 			</dict>
+
+			<!-- Ruby -->
 			<dict>
 				<key>name</key>
-				<string>Atoms</string>
+				<string>Class Usage</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#a4a9b0</string>
+					<string>#c6d49e</string>
 				</dict>
 				<key>scope</key>
-				<string>constant.other.symbol.elixir</string>
+				<string>support.class.ruby</string>
+			</dict>
+
+			<!-- JSX -->
+			<dict>
+				<key>name</key>
+				<string>Class Usage</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F5F1F2</string>
+				</dict>
+				<key>scope</key>
+				<string>keyword.operator.assignment.js.jsx, keyword.operator.assignment.tsx</string>
 			</dict>
 
 			<!-- Diffs -->
