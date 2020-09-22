@@ -250,45 +250,65 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#a4a9b0</string>
+					<string>#B4C2D6</string>
 				</dict>
 				<key>scope</key>
-				<string>constant.other.symbol.elixir, constant.other.symbol.ruby</string>
+				<string>
+					constant.other.symbol.elixir,
+					constant.other.symbol.double-quoted.elixir,
+					constant.other.symbol.ruby
+				</string>
 			</dict>
 
 			<!-- Elixir -->
-			<dict>
-				<key>name</key>
-				<string>Method Separator</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#B6DB51</string>
-				</dict>
-				<key>scope</key>
-				<string>punctuation.separator.method.elixir</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Colons</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#B6DB51</string>
-				</dict>
-				<key>scope</key>
-				<string>punctuation.definition.constant.elixir</string>
-			</dict>
 			<dict>
 				<key>name</key>
 				<string>Attributes</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#c6d49e</string>
+					<string>#a4a9b0</string>
 				</dict>
 				<key>scope</key>
 				<string>variable.other.readwrite.module.elixir</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Functions</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F5F1F2</string>
+				</dict>
+				<key>scope</key>
+				<string>entity.name.function.elixir</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Punctuation</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#c6d49e</string>
+				</dict>
+				<key>scope</key>
+				<string>
+					punctuation.section.function.elixir,
+					punctuation.section.array.elixir,
+					punctuation.section.scope.elixir,
+					punctuation.separator.object.elixir
+				</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Punctuation</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B4C2D6</string>
+				</dict>
+				<key>scope</key>
+				<string>punctuation.separator.object.elixir</string>
 			</dict>
 
 			<!-- Ruby -->
