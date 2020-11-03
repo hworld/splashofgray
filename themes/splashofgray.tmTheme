@@ -382,6 +382,24 @@
 					<string>#E6DB74</string>
 				</dict>
 			</dict>
+
+            <!-- Dart -->
+			<dict>
+				<key>name</key>
+				<string>Attributes</string>
+				<key>scope</key>
+				<string>support.class.dart</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#cbc8a1</string>
+					<!-- <string>#e9e5ba</string> -->
+					<!-- <string>#e9e4ac</string> -->
+					<!-- <string>#e8e19c</string> -->
+					<!-- <string>#d8e1bd</string> -->
+					<!-- <string>#d8e8ab</string> -->
+				</dict>
+			</dict>
 		</array>
 		<key>name</key>
 		<string>nodejs</string>
