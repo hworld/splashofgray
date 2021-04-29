@@ -41,6 +41,8 @@
 					<string>#B6DB5140</string>
 					<key>stackGuide</key>
 					<string>#B6DB5120</string>
+					<key>dart.closingLabels</key>
+					<string>#5D5D5D</string>
 				</dict>
 			</dict>
 			<dict>
@@ -259,6 +261,22 @@
 					constant.other.symbol.ruby
 				</string>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>Classes/Attributes/Modules/Namespaces</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#a4a9b0</string>
+				</dict>
+				<key>scope</key>
+				<string>
+					support.class,
+					meta.module,
+					variable.other.constant.elixir,
+					support.other.namespace.php
+				</string>
+			</dict>
 
 			<!-- Elixir -->
 			<dict>
@@ -380,19 +398,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#E6DB74</string>
-				</dict>
-			</dict>
-
-            <!-- Dart -->
-			<dict>
-				<key>name</key>
-				<string>Attributes</string>
-				<key>scope</key>
-				<string>support.class.dart</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#a4a9b0</string>
 				</dict>
 			</dict>
 		</array>
