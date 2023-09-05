@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
 	Colors
@@ -6,7 +6,8 @@
 	default text: F5F1F2
 
 	bright green: B6DB51
-	lighter green: c6d49e
+	yellowish green: c6d49e
+	minty green: 90B7B1
 	yellow: E6DB74
 
 	comment gray: 5D5D5D
@@ -71,7 +72,8 @@
 				<key>name</key>
 				<string>HTML Attributes</string>
 				<key>scope</key>
-				<string>entity.other.attribute-name.html, entity.other.attribute-name.tag.pug, entity.other.attribute-name.js, entity.other.attribute-name.tsx</string>
+				<string>entity.other.attribute-name.html, entity.other.attribute-name.tag.pug,
+					entity.other.attribute-name.js, entity.other.attribute-name.tsx</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -94,7 +96,8 @@
 				<key>name</key>
 				<string>CSS Selectors</string>
 				<key>scope</key>
-				<string>entity.other.attribute-name.class.stylus, entity.other.attribute-name.class.css</string>
+				<string>entity.other.attribute-name.class.stylus,
+					entity.other.attribute-name.class.css</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -106,7 +109,8 @@
 				<key>name</key>
 				<string>CSS Pseudo Selector</string>
 				<key>scope</key>
-				<string>entity.other.attribute-name.pseudo-element, entity.other.attribute-name.pseudo-class</string>
+				<string>entity.other.attribute-name.pseudo-element,
+					entity.other.attribute-name.pseudo-class</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -189,7 +193,8 @@
 					<string>#a4a9b0</string>
 				</dict>
 				<key>scope</key>
-				<string>entity.name.tag, punctuation.definition.tag, meta.selector.stylus, entity.other.attribute-name.class</string>
+				<string>entity.name.tag, punctuation.definition.tag, meta.selector.stylus,
+					entity.other.attribute-name.class</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -237,6 +242,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>Docblock keywords</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#90B7B1</string>
+				</dict>
+				<key>scope</key>
+				<string>storage.type.class.jsdoc, keyword.other.phpdoc.php</string>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>This</string>
 				<key>settings</key>
 				<dict>
@@ -255,11 +271,8 @@
 					<string>#B4C2D6</string>
 				</dict>
 				<key>scope</key>
-				<string>
-					constant.other.symbol.elixir,
-					constant.other.symbol.double-quoted.elixir,
-					constant.other.symbol.ruby
-				</string>
+				<string>constant.other.symbol.elixir, constant.other.symbol.double-quoted.elixir,
+					constant.other.symbol.ruby</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -270,12 +283,8 @@
 					<string>#a4a9b0</string>
 				</dict>
 				<key>scope</key>
-				<string>
-					support.class,
-					meta.module,
-					variable.other.constant.elixir,
-					support.other.namespace.php
-				</string>
+				<string>support.class, meta.module, variable.other.constant.elixir,
+					support.other.namespace.php</string>
 			</dict>
 
 			<!-- Elixir -->
@@ -310,12 +319,8 @@
 					<string>#c6d49e</string>
 				</dict>
 				<key>scope</key>
-				<string>
-					punctuation.section.function.elixir,
-					punctuation.section.array.elixir,
-					punctuation.section.scope.elixir,
-					punctuation.separator.object.elixir
-				</string>
+				<string>punctuation.section.function.elixir, punctuation.section.array.elixir,
+					punctuation.section.scope.elixir, punctuation.separator.object.elixir</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -398,6 +403,19 @@
 				<dict>
 					<key>foreground</key>
 					<string>#E6DB74</string>
+				</dict>
+			</dict>
+
+			<!-- Unknown vue components -->
+			<dict>
+				<key>name</key>
+				<string>Unknown Vue component</string>
+				<key>scope</key>
+				<string>source.vue meta.tag.other.unrecognized.html entity.name.tag.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF5274</string>
 				</dict>
 			</dict>
 		</array>
