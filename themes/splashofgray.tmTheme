@@ -242,17 +242,6 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Docblock keywords</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#90B7B1</string>
-				</dict>
-				<key>scope</key>
-				<string>storage.type.class.jsdoc, keyword.other.phpdoc.php</string>
-			</dict>
-			<dict>
-				<key>name</key>
 				<string>This</string>
 				<key>settings</key>
 				<dict>
@@ -417,6 +406,30 @@
 					<key>foreground</key>
 					<string>#FF5274</string>
 				</dict>
+			</dict>
+
+			<!-- Docblocks -->
+			<dict>
+				<key>name</key>
+				<string>Docblock keywords</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#90B7B1</string>
+				</dict>
+				<key>scope</key>
+				<string>storage.type.class.jsdoc, keyword.other.phpdoc.php</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Docblock entity names</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#c6d49e</string>
+				</dict>
+				<key>scope</key>
+				<string>entity.name.type.instance.jsdoc</string>
 			</dict>
 		</array>
 		<key>name</key>
