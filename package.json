@@ -1,5 +1,5 @@
 {
-	"name": "Splash of Gray",
+	"name": "splash-of-gray",
 	"description": "Splash of Gray color theme.",
 	"version": "0.0.1",
 	"publisher": "CROS",
@@ -14,7 +14,7 @@
 			{
 				"label": "Splash of Gray",
 				"uiTheme": "vs-dark",
-				"path": "./themes/splashofgray.tmTheme"
+				"path": "./themes/splashofgray.json"
 			}
 		]
 	}
