@@ -786,8 +786,8 @@
         // "string.quoted.double.php punctuation.definition.variable.php",
       ],
       "settings": {
-        // "foreground": "#ffb2cea0"
-        "foreground": "#bbb5ce"
+        "foreground": "#ffb2cea0"
+        // "foreground": "#bbb5ce"
       }
     },
     {
@@ -1065,7 +1065,7 @@
     //     "foreground": "#F5F1F2"
     //   }
     // },
-    
+
     // Turned off since it was annoying.
     // {
     //   // Elixir punctuation
