@@ -1,18 +1,18 @@
 {
   // Colors
   //
-  // default text: f5f1f2
-  // bright green: b6db51
-  // yellowish green: c6d49e
-  // minty green: 90b7b1
-  // yellow: e6db74
-  // comment gray: 777777
-  // red: ff5274
-  // bright pink: ff3fac
-  // blue: b4c2d6
-  // faded blue: a4a9b0
-  // purple: 7550db
-  // light purple: bbb5ce
+  // default text: #f5f1f2
+  // bright green: #b6db51
+  // yellowish green: #c6d49e
+  // minty green: #90b7b1
+  // yellow: #e6db74
+  // comment gray: #777777
+  // red: #ff5274
+  // bright pink: #ff3fac
+  // blue: #b4c2d6
+  // faded blue: #a4a9b0
+  // purple: #7550db
+  // light purple: #bbb5ce
 
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
@@ -161,6 +161,10 @@
     //"editorActiveLineNumber.foreground": "#c6c6c6",
     // "editorBracketHighlight.foreground1": "#ffd700",
     // "editorBracketHighlight.foreground1": "#ffbf00",
+    "editorBracketHighlight.foreground1": "#90b7b1D0",
+    "editorBracketHighlight.foreground2": "#896adfD0",
+    "editorBracketHighlight.foreground3": "#90b7b1D0",
+    "editorBracketHighlight.foreground4": "#896adfD0"
     // "editorBracketHighlight.foreground2": "#da70d6",
     // "editorBracketHighlight.foreground2": "#ff006a",
     // "editorBracketHighlight.foreground3": "#179fff",
@@ -768,10 +772,7 @@
       }
     },
     {
-      "scope": [
-        "variable",
-        "entity.name.function",
-      ],
+      "scope": ["variable", "entity.name.function"],
       "settings": {
         "foreground": "#f5f1f2"
       }
@@ -780,7 +781,7 @@
       // Template definition
       "scope": [
         "punctuation.definition.template-expression",
-        "punctuation.section.embedded",
+        "punctuation.section.embedded"
         // This weird one gets PHP to highlight the brackets around a variable
         // in a double quoted string interpolation.
         // "string.quoted.double.php punctuation.definition.variable.php",
@@ -795,7 +796,7 @@
       "scope": [
         // These are mostly for interpolation in strings in languages.
         "meta.template.expression",
-        "meta.embedded.line.elixir",
+        "meta.embedded.line.elixir"
         // "variable.other.php",
         // // In double quoted strings PHP will highlight the $ within the {}
         // // brackets. We want to reset this.
@@ -897,10 +898,7 @@
     },
     {
       // Types/annotations
-      "scope": [
-        "meta.type.annotation",
-        "meta.type.parameters",
-      ],
+      "scope": ["meta.type.annotation", "meta.type.parameters"],
       "settings": {
         "foreground": "#A4A9B0"
       }
@@ -917,7 +915,7 @@
       "scope": [
         "constant.language.symbol.elixir",
         "source.elixir constant.language.symbol",
-        "constant.other.symbol.ruby",
+        "constant.other.symbol.ruby"
       ],
       "settings": {
         "foreground": "#bbb5ce"
@@ -1021,14 +1019,12 @@
       // PHP attributes
       "scope": "meta.attribute.php",
       "settings": {
-        "foreground": "#c6d49e",
+        "foreground": "#c6d49e"
       }
     },
     {
       // Atoms/symbols
-      "scope": [
-        "entity.name.variable.parameter.php"
-      ],
+      "scope": ["entity.name.variable.parameter.php"],
       "settings": {
         "foreground": "#bbb5ce"
       }
