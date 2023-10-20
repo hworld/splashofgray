@@ -971,7 +971,7 @@
     // CSS/Stylus
     {
       // Stylus mixins
-      "scope": "entity.other.attribute-name.mixin",
+      "scope": "entity.name.function.stylus",
       "settings": {
         "foreground": "#B6DB51"
       }
@@ -998,7 +998,10 @@
     },
     {
       // CSS property names
-      "scope": "meta.property-name",
+      "scope": [
+        "meta.property-name",
+        "support.type.property-name.css",
+      ],
       "settings": {
         "foreground": "#C6D49E"
       }
@@ -1054,33 +1057,6 @@
         "foreground": "#A4A9B0"
       }
     },
-    // {
-    //   // Elixir functions
-    //   "scope": "entity.name.function.elixir",
-    //   "settings": {
-    //     "foreground": "#F5F1F2"
-    //   }
-    // },
-
-    // Turned off since it was annoying.
-    // {
-    //   // Elixir punctuation
-    //   "scope": [
-    //     "punctuation.section.function.elixir",
-    //     "punctuation.section.array.elixir",
-    //     "punctuation.section.scope.elixir"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#FFB2CEa0"
-    //   }
-    // },
-    // {
-    //   // Elixir other punctuation
-    //   "scope": "punctuation.separator.object.elixir",
-    //   "settings": {
-    //     "foreground": "#B4C2D6"
-    //   }
-    // },
 
     // RUBY
     {
