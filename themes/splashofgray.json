@@ -1140,7 +1140,7 @@
 
     // DART/FLUTTER
     {
-      "scope": ["storage.type.annotation.dart"],
+      "scope": "storage.type.annotation.dart",
       "settings": {
         "foreground": "#B6DB51"
       }
