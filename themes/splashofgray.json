@@ -829,6 +829,8 @@
         "punctuation.definition.end.bracket",
         "punctuation.definition.class",
         "punctuation.definition.match-expression",
+        "punctuation.definition.switch-expression.begin.bracket",
+        "punctuation.definition.switch-expression.end.bracket",
         "punctuation.definition.section",
         "punctuation.definition.storage-type",
         "punctuation.section",
