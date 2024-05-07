@@ -25,7 +25,7 @@
     "editor.lineHighlightBackground": "#00000025",
     "editor.selectionBackground": "#ffffff20",
     // This was kind of a random color so that it can provide enough contrast.
-    "editor.findMatchBackground": "#8c235e",
+    "editor.findMatchBackground": "#7c0e4c",
     "editor.findMatchBorder": "#ffffff20",
     "editor.findMatchHighlightBackground": "#7550db70",
     "editor.findMatchHighlightBorder": "#ffffff25",
