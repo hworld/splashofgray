@@ -174,7 +174,7 @@
     //"editorBracketHighlight.foreground6": "#00000000",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff5274cc",
     "editorBracketMatch.background": "#7550db70",
-    "editorBracketMatch.border": "#ffffff40",
+    "editorBracketMatch.border": "#ffffff40"
     //"editorBracketPairGuide.activeBackground1": "#00000000",
     //"editorBracketPairGuide.activeBackground2": "#00000000",
     //"editorBracketPairGuide.activeBackground3": "#00000000",
@@ -924,7 +924,7 @@
         "constant.language.symbol.elixir",
         "source.elixir constant.language.symbol",
         "constant.other.symbol.ruby",
-        "entity.name.variable.parameter.php",
+        "entity.name.variable.parameter.php"
       ],
       "settings": {
         "foreground": "#bbb5ce"
@@ -941,6 +941,14 @@
       ],
       "settings": {
         "foreground": "#A4A9B0"
+      }
+    },
+
+    // JSON
+    {
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "#bbb5ce"
       }
     },
 
@@ -1000,10 +1008,7 @@
     },
     {
       // CSS property names
-      "scope": [
-        "meta.property-name",
-        "support.type.property-name.css",
-      ],
+      "scope": ["meta.property-name", "support.type.property-name.css"],
       "settings": {
         "foreground": "#C6D49E"
       }
